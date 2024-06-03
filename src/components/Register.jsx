@@ -8,7 +8,7 @@ function Register(){
     const [phone,setPhone] = React.useState(0);
     const [password,setPassword] = React.useState("");
     const [role,setRole] = React.useState("");
-    const Base_URL = "http://localhost:3000";
+    const Base_URL = "https://securityboat-backend-1.onrender.com/";
     const navigate = useNavigate();
     
     async function addUser(){

@@ -11,7 +11,7 @@ function AdminScreen(){
     const [actor,setActor] = React.useState(''); 
     const [genre,setGenre] = React.useState(''); 
     const [module,setModule] = React.useState(false); 
-    const Base_URL = "http://localhost:3000";
+    const Base_URL = "https://securityboat-backend-1.onrender.com/";
     
     const notify = () => toast("Wow so easy!");
 

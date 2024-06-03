@@ -6,7 +6,7 @@ import AdminScreen from './AdminScreen';
 function Dashboard(){
   const { state } = useLocation();
   const user = state?.user;
-  const Base_URL = "http://localhost:3000";
+  const Base_URL = "https://securityboat-backend-1.onrender.com/";
   const [userdata,setUserdata] = React.useState({});
   const [data,setData] = React.useState([]);
   

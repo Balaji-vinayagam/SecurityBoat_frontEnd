@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function Login(){
     const [email,setEmail] = React.useState("");
     const [password,setPassword] = React.useState("");
-    const Base_URL = "http://localhost:3000";
+    const Base_URL = "https://securityboat-backend-1.onrender.com/";
     const navigate = useNavigate();
 
     async function checkUser(){
