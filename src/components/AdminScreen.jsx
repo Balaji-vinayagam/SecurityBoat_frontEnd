@@ -29,7 +29,7 @@ function AdminScreen(){
           duration: duration
         };
         try{
-            const response = await fetch(`${Base_URL}/add/movielist`, {
+            const response = await fetch(`${Base_URL}add/movielist`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'

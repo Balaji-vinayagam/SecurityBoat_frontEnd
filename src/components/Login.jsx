@@ -15,7 +15,7 @@ function Login(){
         password
        }
         try{
-            const response = await fetch(`${Base_URL}/check/user`, {
+            const response = await fetch(`${Base_URL}check/user`, {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json'

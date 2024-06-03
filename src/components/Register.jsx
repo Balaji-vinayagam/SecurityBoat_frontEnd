@@ -21,7 +21,7 @@ function Register(){
         }
         try{
             console.log(userDetails);
-            const response = await fetch(`${Base_URL}/add/user`, {
+            const response = await fetch(`${Base_URL}add/user`, {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json'

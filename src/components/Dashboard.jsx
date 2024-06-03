@@ -16,8 +16,8 @@ function Dashboard(){
 
   async function fetchUserDetails(){
     try{
-      const userInfo = await axios.get(`${Base_URL}/userDetails`);
-      const movieInfo = await axios.get(`${Base_URL}/MovieDetails`);
+      const userInfo = await axios.get(`${Base_URL}userDetails`);
+      const movieInfo = await axios.get(`${Base_URL}MovieDetails`);
       const res = userInfo.data;
       console.log("userInfo",res);
       console.log("movieInfo",movieInfo.data);
